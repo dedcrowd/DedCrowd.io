@@ -31,7 +31,8 @@
         .popup h1 {
             font-size: 4em;
             margin: 0;
-            text-shadow: 0 0 10px #33ff33;
+            color: #ff0000;
+            text-shadow: 0 0 15px #ff0000;
         }
         .container {
             display: none;
@@ -40,10 +41,23 @@
             animation: fadeIn 2s ease-in forwards;
         }
         h1, h3 {
-            text-shadow: 0 0 10px #33ff33;
+            text-shadow: 0 0 10px #00ffcc;
+            color: #00ffcc;
         }
         p, a {
-            color: #33ff33;
+            color: #cccccc;
+        }
+        .certifications {
+            margin-top: 50px;
+            text-align: center;
+        }
+        .cert-item {
+            margin: 10px 0;
+        }
+        img.profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            margin: 20px auto;
         }
         .hidden-message {
             font-size: 1.5em;
@@ -68,8 +82,21 @@
     </div>
 
     <div class="container" id="content">
+        <img src="https://avatars.githubusercontent.com/u/120281586?v=4" alt="profile-pic" class="profile-pic">
         <h1 align="center">Hi 👋, I'm M.Akif SAYIN | ~DedCrowd~</h1>
         <h3 align="center">I am a Red team Offensive Hacker in Turkiye.</h3>
+
+        <div class="certifications">
+            <h2>Certifications</h2>
+            <div class="cert-item">AWS Certified Cloud Practitioner - Dec 2024</div>
+            <div class="cert-item">CompTIA PenTest+ (PT0-002) - Dec 2024</div>
+            <div class="cert-item">CompTIA Security+ (SY0-701) - Dec 2024</div>
+            <div class="cert-item">ISC2 CISSP - Dec 2024</div>
+            <div class="cert-item">Ubuntu Linux: Network Administration - Dec 2024</div>
+            <div class="cert-item">Advanced Cyber Security Expertise (260 Hours) - Oct 2024</div>
+            <div class="cert-item">FSMSEM Cybersecurity Certification (120 Hours) - Sep 2024</div>
+            <div class="cert-item">Cisco CCNAv7: Introduction to Networks - May 2024</div>
+        </div>
 
         <p align="left"> <img src="https://komarev.com/ghpvc/?username=hunthack3r&label=Profile%20views&color=0e75b6&style=flat" alt="hunthack3r" /> </p>
 
