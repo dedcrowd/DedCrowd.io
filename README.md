@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,11 +17,22 @@
         }
         header {
             background-color: rgba(22, 27, 34, 0.95);
-            padding: 40px 20px;
+            padding: 60px 20px;
             text-align: center;
             background-image: url('https://source.unsplash.com/1600x900/?cybersecurity,hacker');
             background-size: cover;
             background-blend-mode: overlay;
+            position: relative;
+        }
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1;
         }
         .container {
             width: 90%;
@@ -30,12 +42,14 @@
             background-color: rgba(22, 27, 34, 0.95);
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
             border-radius: 8px;
+            position: relative;
+            z-index: 2;
         }
         h1, h2, h3 {
-            color: #58a6ff;
+            color: #00ff7f;
         }
         a {
-            color: #58a6ff;
+            color: #00ff7f;
             text-decoration: none;
         }
         a:hover {
@@ -51,12 +65,13 @@
             margin: 10px 0;
         }
         @keyframes cyber-glow {
-            0% { text-shadow: 0 0 5px #58a6ff; }
-            50% { text-shadow: 0 0 20px #58a6ff; }
-            100% { text-shadow: 0 0 5px #58a6ff; }
+            0% { text-shadow: 0 0 5px #00ff7f; }
+            50% { text-shadow: 0 0 20px #00ff7f; }
+            100% { text-shadow: 0 0 5px #00ff7f; }
         }
         .glow-text {
             animation: cyber-glow 1.5s infinite;
+            font-size: 2.5rem;
         }
         .animated-bg {
             position: absolute;
@@ -75,7 +90,7 @@
     <div class="animated-bg"></div>
     <header>
         <div class="container">
-            <h1 class="glow-text">DedCrowd.io</h1>
+            <h1 class="glow-text">Muhammed Akif SAYIN | ~ DedCrowd ~</h1>
             <p class="glow-text">🔒 Offensive Hacker | Web & Mobile Pentester | Cybersecurity Specialist</p>
         </div>
     </header>
@@ -100,22 +115,6 @@
                 <li><strong>FSMSEM Cybersecurity Certification (120 Hours)</strong> - Network Security, Risk Management (Sep 2024)</li>
                 <li><strong>Cisco - CCNAv7: Introduction to Networks</strong> (May 2024)</li>
             </ul>
-        </div>
-    </section>
-
-    <section id="experience">
-        <div class="container">
-            <h2>Experience</h2>
-            <div class="job">
-                <h3>Cyber Security Specialist</h3>
-                <p><strong>Ege Yurt Grup</strong> | Mar 2024 - Present</p>
-                <p>Performing security assessments, penetration testing, and vulnerability management across company networks and applications.</p>
-            </div>
-            <div class="job">
-                <h3>Security Pentester</h3>
-                <p><strong>Kamyoon</strong> | Apr 2024 - Present</p>
-                <p>Responsible for web and mobile pentesting, securing applications, and identifying system vulnerabilities.</p>
-            </div>
         </div>
     </section>
 
