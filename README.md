@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +6,48 @@
     <meta name="description" content="Muhammed Akif Sayin | Offensive Security Specialist | Cybersecurity & Pentesting Portfolio">
     <title>DedCrowd | Muhammed Akif Sayin</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0d1117;
+            color: #c9d1d9;
+        }
+        header {
+            background-color: #161b22;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #161b22;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1, h2, h3 {
+            color: #58a6ff;
+        }
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #161b22;
+            color: #c9d1d9;
+        }
+        .contact-info {
+            margin: 10px 0;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -76,9 +118,10 @@
     <section id="contact">
         <div class="container">
             <h2>Contact Me</h2>
-            <p>Email: <a href="mailto:akif@hackermail.com">akif@hackermail.com</a></p>
-            <p>GitHub: <a href="https://github.com/hunthack3r" target="_blank">github.com/hunthack3r</a></p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/hacker--" target="_blank">linkedin.com/in/hacker--</a></p>
+            <p class="contact-info">Email: <a href="mailto:akif@hackermail.com">akif@hackermail.com</a></p>
+            <p class="contact-info">Secondary Email: <a href="mailto:dedcrowd@hackermail.com">dedcrowd@hackermail.com</a></p>
+            <p class="contact-info">GitHub: <a href="https://github.com/hunthack3r" target="_blank">github.com/hunthack3r</a></p>
+            <p class="contact-info">LinkedIn: <a href="https://linkedin.com/in/hacker--" target="_blank">linkedin.com/in/hacker--</a></p>
         </div>
     </section>
 
