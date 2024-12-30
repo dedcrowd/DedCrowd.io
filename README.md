@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,19 +13,23 @@
             padding: 0;
             background-color: #0d1117;
             color: #c9d1d9;
+            overflow-x: hidden;
         }
         header {
-            background-color: #161b22;
-            padding: 20px;
+            background-color: rgba(22, 27, 34, 0.95);
+            padding: 40px 20px;
             text-align: center;
+            background-image: url('https://source.unsplash.com/1600x900/?cybersecurity,hacker');
+            background-size: cover;
+            background-blend-mode: overlay;
         }
         .container {
             width: 90%;
             max-width: 1100px;
             margin: 40px auto;
-            padding: 20px;
-            background-color: #161b22;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            background-color: rgba(22, 27, 34, 0.95);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
             border-radius: 8px;
         }
         h1, h2, h3 {
@@ -41,19 +45,39 @@
         footer {
             text-align: center;
             padding: 20px;
-            background-color: #161b22;
+            background-color: rgba(22, 27, 34, 0.95);
             color: #c9d1d9;
         }
         .contact-info {
             margin: 10px 0;
         }
+        @keyframes cyber-glow {
+            0% { text-shadow: 0 0 5px #58a6ff; }
+            50% { text-shadow: 0 0 20px #58a6ff; }
+            100% { text-shadow: 0 0 5px #58a6ff; }
+        }
+        .glow-text {
+            animation: cyber-glow 1.5s infinite;
+        }
+        .animated-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: url('https://source.unsplash.com/1600x900/?technology,hacker') no-repeat center center/cover;
+            filter: blur(5px);
+            opacity: 0.3;
+        }
     </style>
 </head>
 <body>
+    <div class="animated-bg"></div>
     <header>
         <div class="container">
-            <h1> Muhamed Akif SAYIN | ~ DedCrowd ~</h1>
-            <p>🔒 Offensive Hacker | Web & Mobile Pentester | Cybersecurity Specialist</p>
+            <h1 class="glow-text">DedCrowd.io</h1>
+            <p class="glow-text">🔒 Offensive Hacker | Web & Mobile Pentester | Cybersecurity Specialist</p>
         </div>
     </header>
 
@@ -93,25 +117,6 @@
                 <p><strong>Kamyoon</strong> | Apr 2024 - Present</p>
                 <p>Responsible for web and mobile pentesting, securing applications, and identifying system vulnerabilities.</p>
             </div>
-            <div class="job">
-                <h3>Co-founder</h3>
-                <p><strong>Elite Design</strong> | Jan 2023 - Jan 2024</p>
-                <p>Developed smart home and vehicle systems focusing on AI and IoT security integrations.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <ul>
-                <li>Penetration Testing (Web & Mobile)</li>
-                <li>Cloud Security (AWS, Azure)</li>
-                <li>Network Administration (Linux, Ubuntu)</li>
-                <li>Incident Response & Risk Management</li>
-                <li>Programming: Python, Bash, JavaScript</li>
-                <li>AI/ML (Scikit-Learn, TensorFlow, Keras)</li>
-            </ul>
         </div>
     </section>
 
@@ -121,7 +126,6 @@
             <p class="contact-info">Email: <a href="mailto:akif@hackermail.com">akif@hackermail.com</a></p>
             <p class="contact-info">Secondary Email: <a href="mailto:dedcrowd@hackermail.com">dedcrowd@hackermail.com</a></p>
             <p class="contact-info">GitHub: <a href="https://github.com/hunthack3r" target="_blank">github.com/hunthack3r</a></p>
-            <p class="contact-info">LinkedIn: <a href="https://linkedin.com/in/hacker--" target="_blank">linkedin.com/in/hacker--</a></p>
         </div>
     </section>
 
