@@ -1,265 +1,424 @@
-<html><head>
 
-<title>Hacked by nosorry </title>
-<meta name="description" content="[ 🖕 ]">
+<html>
+<head>
+	<div style="position: fixed; top: 100px; left: -300px; width: 600px; padding: 10px; font-size: 10px; text-align: center; color: white; font-family: 'trebuchet ms', verdana, arial, sans-serif;transform: rotate(-45deg);transform-origin: 50% 0px;-o-transform: rotate(-45deg); -o-transform-origin: 50% 0px;-moz-transform: rotate(-45deg); -moz-transform-origin: 50% 0px; -webkit-transform: rotate(-45deg); -webkit-transform-origin: 50% 0px; background-color: Transparent; border: 1px solid rgb(170, 170, 170); z-index: 9999; opacity: 0.5;"><a href="https://www.facebook.com/PureHackers.Sec" style="text-decoration:none;color:white;">NWH WAS HERE </a></div>
 
+<div class="stars">
+  <center>
+    <h1><font color=red>HACKED BY </h1>
+    <h1><font color=orange>TEAM<font color=white> NWH<font color=green> SECURITY
+  <style type="text/css">
 
-
-<script>
-var pesen="🖕";
-function clickIE4(){if (event.button==2){alert(pesen);return false;}}
-function clickNS4(e){if (document.layers||document.getElementById&&!document.all){if (e.which==2||e.which==3){alert(pesen);return false;}}}
-if (document.layers){document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS4;}
-else if (document.all&&!document.getElementById){document.onmousedown=clickIE4;}
-document.oncontextmenu=new Function("alert(pesen);return false")
-</script>
-<script type="text/javascript">
-        window.oncontextmenu = function () {
-            return false;
-        }
-        $(document).keydown(function (event) {
-            if (event.keyCode == 123) {
-                return false;
-            }
-            else if ((event.ctrlKey && event.shiftKey && event.keyCode == 73) || (event.ctrlKey && event.shiftKey && event.keyCode == 74)) {
-                return false;
-            }
-        });
-    </script>
-	<script>
-	document.onkeydown = function(e) { 
-        if (e.ctrlKey && 
-            (e.keyCode === 85 )) {
-            return false;
-        }
-	};
-	</script>
-	<script>
-	document.addEventListener("keydown", function(e) {
-	if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
-    e.preventDefault();
-    alert('🖕');
-	}
-	}, false);
-	</script>
-	<script>
-	   jQuery(function($) {
-	   
-	   var index = 'qpsstats-active-tab';
-	   var dataStore = window.sessionStorage;
-	   var oldIndex = 0;
-	   
-	   var tabs = $('.about_tabs');
-	   var tabs_select = true;
-	   var selector = $(".about_tabs").find(".slide__tdc");
-	   var activeItem = tabs.find('.about_tabs li .ui-state-active');
-	   var activeWidth = activeItem.innerWidth();
-	   
-	   $(".slide__tdc").css({
-	     "left": activeItem.position.left + "px", 
-	     "width": activeWidth + "px"
-	   });
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap') repeat scroll 0 0 rgba(0, 0, 0 , 0);
 
 
 
-	       
-	   try {
-	       oldIndex = dataStore.getItem(index);
-	       $('#tdc_slide').addClass('animated fadeInLeft tabs' + oldIndex);
-	       $('#tdc_slide').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-	           $(this).removeClass('animated fadeInLeft');
-	       });
-	   } catch (e) {}
+@font-face { font-family: DaysLater; src: url('https://d4rk-vamp1re.github.io/js-host/28DaysLater-MA0x.ttf'); } 
+
+ .ict-log{
+
+         font-family: DaysLater;
+
+         text-align: center;
+
+      }
+
+body { background: url("https://media.tumblr.com/c838dd887608a325eaae477ffa4dd2b7/tumblr_myrxsem7AC1s8tqb9o1_500.gif");
+
+        background-position: absolute;
+
+  background-size: cover;
+
+ }
 
 
-	   $("#tabs").tabs({
-	       active: oldIndex,
-	       hide: {
-	           effect: "fade",
-	           duration: 200
-	       },
-	       show: { 
-	           function( event, ui ) {
 
-	           alert('2');
-	           },
-	           effect: "fade",
-	           direction: "right",
-	           duration: 200
-	       }, 
-	       activate: function(event, ui) {
-				   tabs_select = false;
-					
-				   var newIndex = ui.newTab.parent().children().index(ui.newTab);
-				
-				   $('#tdc_slide').removeClass();
-				   $('#tdc_slide').addClass('animated fadeInLeft tabs' + newIndex);
-				   $('#tdc_slide').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-					   $(this).removeClass('animated fadeInLeft');  
-				 });
-					var isn = $('.ui-tabs-active');
-					var activeWidth = isn.innerWidth();
-					var itemPos = isn.position();
-						 $(".slide__tdc").css({
-						   "left":itemPos.left + "px", 
-						   "width": activeWidth + "px"
-					});
-	           
-			   
-	           try {
-	               dataStore.setItem(index, newIndex);
-	           } catch (e) {}
-				tabs_select = true;
-	       }
-	   })
-	   
-	   	   
-/* 	   $(".about_tabs").on("click","li",function(e){
-		if (tabs_select == true) {
-		 e.preventDefault();
-	     var activeWidth = $(this).innerWidth();
-	     var itemPos = $(this).position();
-	     $(".slide__tdc").css({
-	       "left":itemPos.left + "px", 
-	       "width": activeWidth + "px"
-	     });
-			
-		}
-	   });
-	        */
-	   
-	   
-			window.onload = function() {
-			var elm = $(".revealator-slideright");
-			elm.css('transform','translate(0, 0)').css('opacity', '1').css('z-index', '1');
-			};
-				   
-			
-	    	function slider_tabs() {
-	        var elm = $(".ui-state-active");
-	        var activeWidth = elm.innerWidth();
-	        var itemPos = elm.position();
-	        $(".slide__tdc").css({
-			"left":itemPos.left + "px", 
-			"width": activeWidth + "px"
-			});
-			}
-			window.onresize = function(event) {
-			slider_tabs();
-		    };
-			
-			
-			slider_tabs();
-	})
-	</script>
-	<script>
-	$(document).keydown(function(event) {
-	if (event.ctrlKey==true && (event.which == '61' || event.which == '107' || event.which == '173' || event.which == '109'  || event.which == '187'  || event.which == '189'  ) ) {
-        event.preventDefault();
-     }
-    // 107 Num Key  +
-    // 109 Num Key  -
-    // 173 Min Key  hyphen/underscor Hey
-    // 61 Plus key  +/= key
-	});
+.ict-log{
 
-	$(window).bind('mousewheel DOMMouseScroll', function (event) {
-       if (event.ctrlKey == true) {
-       event.preventDefault();
-       }
-		});
-</script>
-	</head>
-	<script>
-		function disableselect(e) {
-		  return false
-		}
+  font-size: 36px;
 
-		function reEnable() {
-		  return true
-		}
+     text-shadow: 0 0 10px #000;
 
-		document.onselectstart = new Function ("return false")
+     text-align: center;
 
-		if (window.sidebar) {
-		  document.onmousedown = disableselect
-		  document.onclick = reEnable
-		}
-		</script>
-		<script>
-		$(document).ready(function(){
-	 var keyCodes = [61, 107, 173, 109, 187, 189];
+}
 
-	 $(document).keydown(function(event) {   
-	   if (event.ctrlKey==true && (keyCodes.indexOf(event.which) != -1)) {
-		 alert('Това няма да помогне.'); 
-		 event.preventDefault();
-		}
-	 });
 
-	 $(window).bind('mousewheel DOMMouseScroll', function (event) {
-		if (event.ctrlKey == true) {
-		  alert('Nah.'); 
-		  event.preventDefault();
-		}
-	  });
-	});
-	</script>
-<script language="javascript"src="http://ykubnay.yn.lt/Js/salju/teal.js"type="text/javascript">
-<span style="color: #FFFF00">YELLOW SNOW</span>
-<br />
-<textarea cols="8"rows="2">
-<script language="javascript"src="http://ykubnay.yn.lt/Js/salju/yellow.js"></script>
-<style type='text/css'>body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur118.cur), progress;}</style><a href='http://www.cursors-4u.com/cursor/2008/12/17/cool-grey-outer-glow-pointer.html' target='_blank' title='Cool Grey Outer Glow Pointer'><img alt='Cool Grey Outer Glow Pointer' border='0' src='http://cur.cursors-4u.net/cursor.png' style='position:absolute; top: 0px; right: 0px;'/></a>
-	<style><!--#spinner,.face.back,h1{text-align:center}body{background:#000;font-family:Tahoma,Verdana,sans-serif}.type1,.type2,h1{font-family:Orbitron}h1{color:#333;font-size:50px;margin:1px;text-transform:uppercase}.red,.type1{font-size:21px}#spinner{animation-name:spinner;animation-timing-function:linear;animation-iteration-count:infinite;animation-duration:7s;transform-style:preserve-3d}@keyframes spinner{from{transform:rotateY(0)}to{transform:rotateY(-360deg)}}.face{position:absolute;width:100%;height:100%;backface-visibility:hidden}#div1,h2 span{position:relative}.face.back{display:block;transform:rotateY(180deg);box-sizing:border-box;color:#fff}#div1{left:-66px;top:140px;height:250px;width:100px;-webkit-perspective:150px;perspective:150px}#div2{height:1px;width:150px;padding:50px;border:1px solid #000;border-radius:20px;background-color:rgba(255,255,255,.11);-webkit-transform:rotateX(45deg);transform:rotateX(45deg)}h2 span{top:-60px}.red{color:#FF5E5E;text-shadow:0 0 15px #FF5E5E;text-shadow:0 0 15px #fff;-webkit-transition:width .5s;-webkit-animation:loading 5s ease-out infinite}@-webkit-keyframes loading{0%,100%{opacity:.2}50%{opacity:1}}.type1{color:#3c3}.type2{color:#999;font-size:20px}.kcf{color:#FFF;text-shadow:0 0 5px #0f0,0 0 10px #0f0,0 0 30px #000,0 0 45px #000,0 0 60px #000}<script language="JavaScript1.2">function ClearError(){return!0}window.onerror=ClearError;--></script></style><script>window.onload=function(){var n,e=document.getElementsByTagName("h1")[0],a=e.innerText||e.textContent,t=[],l=0,o=null;for(n=0;n<a.length;++n)t.push("<span>"+a[n]+"</span>");e.innerHTML=t.join(""),t=e.childNodes;var r=function(){for(l+=.01,l>=1&&clearInterval(o),n=0;n<t.length;++n)Math.random()<l?t[n].className="kcf":t[n].className=""};setInterval(r,100)};</script>
+
+   .vamp{
+
+   text-shadow: 0 0 10px #7200E6;
+
+   color: white;
+
+   } 
+
+    .asur{
+
+             animation: shake 1s;
+
+         animation-iteration-count: infinite;
+
+    }
+
+
+
+      @keyframes shake {
+
+           0% { transform: translate(1px, 1px) rotate(0deg); }
+
+           10% { transform: translate(-1px, -2px) rotate(-1deg); }
+
+           20% { transform: translate(-2px, 0px) rotate(1deg); }
+
+           30% { transform: translate(2px, 2px) rotate(0deg); }
+
+           40% { transform: translate(1px, -1px) rotate(1deg); }
+
+           50% { transform: translate(-1px, 2px) rotate(-1deg); }
+
+           60% { transform: translate(-2px, 1px) rotate(0deg); }
+
+           70% { transform: translate(2px, 1px) rotate(-1deg); }
+
+           80% { transform: translate(-1px, -1px) rotate(1deg); }
+
+           90% { transform: translate(1px, 2px) rotate(0deg); }
+
+           100% { transform: translate(1px, -2px) rotate(-1deg); }
+
+         }
+
+
+
+            .blueglow {
+
+   text-shadow: 0 0 10px #74E600;
+
+   color: white;
+
+   font-family: "Kanit";
+
+   } 
+
+        .blink{
+
+      animation: blinker 0.6s linear infinite;
+
+      font-size: 25px;
+
+      color:  #f00000;
+
+      font-weight: bold;
+
+      text-align: center;
+
+      font-family: sans-serif;
+
+    }
+
+              @keyframes blinker {  
+
+      50% { opacity: 0; }
+
+      }
+
+
+
+      @font-face { font-family: FinaFont; src: url('FinalFrontierOldStyle-8Pg.ttf'); } 
+
+ .vamp{
+
+         font-family: "Kanit";
+
+         text-align: center;
+
+      }
+
+.legion{
+
+  color: white;
+
+  font-weight: bold;
+
+  font-size: 14px;
+
+  font-family: "Kanit";
+
+}
+
+      .team{
+
+        text-align: center;
+
+        font-family: "Share Tech";
+
+        font-size: 18px;
+
+      }
+
+  </style>
+
+</head>
+
+<body>
+
+
+
+  <script type="text/javascript" src="https://github.com/dedcrowd/DedCrowd.io/blob/main/plane.js"></script>
+
+  <script type="text/javascript">
+
+  doodle.init("http://aakashbapna.github.io/jet-planes/jet.png");
+
+  </script>
+
+  </center>
+</div>
+<div class="twinkling">
+  <center><br><br><br>
+    <img src="https://i.ibb.co/6J7mc1k/LOGO-copy-png2.png" width="250"/><br>
+<div class="container">
+      <div class="text"></div>
+<title>H4CK3D BY TEAM KWH SECURITY </title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TEAM NWH SECURITY">
+    <meta name="author" content="T3rr8us">
+   
+    <!-- Le styles -->
+	<link rel="SHORTCUT ICON" href="http://winhacker.do.am/favicon.ico" />
+	<link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
 <style>
-*{
-	margin-top:2px;
-}
 
-body{
-    background-position: center;
-	background-color:#000000;
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      background: #000;
+      padding-bottom: 40px;
+      color: #000;
+      
+      -webkit-transform: rotateX(90deg);
+      -moz-transform: rotateX(90deg);
+      -ms-transform: rotateX(90deg);
+      -o-transform: rotateX(90deg);
+      transform: rotateX(90deg);
+      -webkit-transform: translateZ(-100px);
+      -moz-transform: translateZ(-100px);
+      -ms-transform: translateZ(-100px);
+      -o-transform: translateZ(-100px);
+      transform: translateZ(-100px);
+      -webkit-animation: rain 3s infinite linear;
+      -moz-animation: rain 3s infinite linear;
+      -ms-animation: rain 3s infinite linear;
+      -o-animation: rain 3s infinite linear;
+      animation: rain 3s infinite linear;
+    }
+
+    @-webkit-keyframes rain {
+      from { background-position: left 0px, 40px 0px, left 0px; }
+      to   { background-position: left 200px, 40px 200px, left 300px; }
+    }
+    @-moz-keyframes rain {
+      from { background-position: left 0px, 40px 0px, left 0px; }
+      to   { background-position: left 200px, 40px 200px, left 300px; }
+    }
+    @-ms-keyframes rain {
+      from { background-position: left 0px, 40px 0px, left 0px; }
+      to   { background-position: left 200px, 40px 200px, left 300px; }
+    }
+    @-o-keyframes rain {
+      from { background-position: left 0px, 40px 0px, left 0px; }
+      to   { background-position: left 200px, 40px 200px, left 300px; }
+    }
+    @keyframes rain {
+      from { background-position: left 0px, 40px 0px, left 0px; }
+      to   { background-position: left 200px, 40px 200px, left 300px; }
+    }
+
+
+    /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 0px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+	  
+	  font-family: Verdana, Arial, Helvetica, sans-serif; 
+	  color : black;
+    }
+
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+	  
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 15px;
+        line-height: 1.5;
+      }
+
+    }
+    </style>	
+    <body>
+<!--
+ * Do not Copy 
+ * @author Winhacker
+ * @copyright 2016 Winhacker
+------------------------------------------------------- 
+-->
+<audio src="/storage/emulated/0/Music/best_deface_song_hacker__lOzKeOXDQeE_140.mp3" controls>
+</audio>
+		<center><h2 class="featurette-heading"><b>
+		<script> 
+		farbbibliothek = new Array(); 
+		farbbibliothek[0] = new Array("#FF0000","#FF1100","#FF2200","#FF3300","#FF4400","#FF5500","#FF6600","#FF7700","#FF8800","#FF9900","#FFaa00","#FFbb00","#FFcc00","#FFdd00","#FFee00","#FFff00","#FFee00","#FFdd00","#FFcc00","#FFbb00","#FFaa00","#FF9900","#FF8800","#FF7700","#FF6600","#FF5500","#FF4400","#FF3300","#FF2200","#FF1100"); 
+		farbbibliothek[1] = new Array("#00FF00","#000000","#00FF00","#00FF00"); 
+		farbbibliothek[2] = new Array("#00FF00","#FF0000","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00"); 
+		farbbibliothek[3] = new Array("#FF0000","#FF4000","#FF8000","#FFC000","#FFFF00","#C0FF00","#80FF00","#40FF00","#00FF00","#00FF40","#00FF80","#00FFC0","#00FFFF","#00C0FF","#0080FF","#0040FF","#0000FF","#4000FF","#8000FF","#C000FF","#FF00FF","#FF00C0","#FF0080","#FF0040"); 
+		farbbibliothek[4] = new Array("#FF0000","#EE0000","#DD0000","#CC0000","#BB0000","#AA0000","#990000","#880000","#770000","#660000","#550000","#440000","#330000","#220000","#110000","#000000","#110000","#220000","#330000","#440000","#550000","#660000","#770000","#880000","#990000","#AA0000","#BB0000","#CC0000","#DD0000","#EE0000"); 
+		farbbibliothek[5] = new Array("#000000","#000000","#000000","#FFFFFF","#FFFFFF","#FFFFFF"); 
+		farbbibliothek[6] = new Array("#0000FF","#FFFF00"); 
+		farben = farbbibliothek[4];
+		function farbschrift() 
+		{ 
+			for(var i=0 ; i<Buchstabe.length; i++) 
+			{ 
+				document.all["a"+i].style.color=farben[i]; 
+			} 
+			farbverlauf(); 
+		} 
+		function string2array(text) 
+		{ 
+			Buchstabe = new Array(); 
+			while(farben.length<text.length) 
+			{ 
+				farben = farben.concat(farben); 
+			} 
+			k=0; 
+			while(k<=text.length) 
+			{ 
+				Buchstabe[k] = text.charAt(k); 
+				k++; 
+			} 
+		} 
+		function divserzeugen() 
+		{ 
+			for(var i=0 ; i<Buchstabe.length; i++) 
+			{ 
+				document.write("<span id='a"+i+"' class='a"+i+"'>"+Buchstabe[i] + "</span>"); 
+			} 
+			farbschrift(); 
+		} 
+		var a=1; 
+		function farbverlauf() 
+		{ 
+			for(var i=0 ; i<farben.length; i++) 
+			{ 
+				farben[i-1]=farben[i]; 
+			} 
+			farben[farben.length-1]=farben[-1]; 
  
-    background-attachment: fixed;
-    background-size:5px;
-	background-image:url(http://i.imgur.com/rHHZqbog.jpg);
-	}
+			setTimeout("farbschrift()",30); 
+		} 
+		// Zu Demonstrationszwecken***************** 
+		var farbsatz=1; 
+		function farbtauscher() 
+		{ 
+			farben = farbbibliothek[farbsatz]; 
+			while(farben.length<text.length) 
+			{ 
+				farben = farben.concat(farben); 
+			} 	
+			farbsatz=Math.floor(Math.random()*(farbbibliothek.length-0.0001)); 
+		} 
+		setInterval("farbtauscher()",4500); 
+		text=" You Have Been Hacked ";
+//h 
+		string2array(text);
+		divserzeugen(); 
+        
+//document.write(text);   
+//
+/*function expand() {
+for(x = 0; x < 50; x++) {
+window.moveTo(screen.availWidth * -(x - 50) / 100, screen.availHeight * -(x - 50) / 100);
+window.resizeTo(screen.availWidth * x / 50, screen.availHeight * x / 50);
+}
+window.moveTo(0,0);
+window.resizeTo(screen.availWidth, screen.availHeight);
+}
+expand();*/
+	</script></b></h2></center>
+		<hr width="80%" style="color:black" />
 
-</style></head>
-<br><br><br><br><br><br><br><br><br><br>
-<center><style></script></style><h1>YOU  HAVE  BEEN  HACKED</h1>
-<br><br>
-<center><div id="foter" class="foter" style="position: center; width: 600px; height: 28px; margin: 0px; padding: 10px; font-size: 24px; text-align: center; color: rgb(255, 255, 255); font-family: &quot;trebuchet ms&quot;, Courier new, courier new, sans-serif; transform: transform-origin: 50% 0px 0px; background-color: rgb(0, 0, 0); border: 1px solid rgb(170, 170, 170); opacity: 0.5; ">
-<font face="courier new"><marquee color="lime" behavior="Flip" scrollamount="6" width="85%" style="width: 50%;">Този сайт беше хакнат успешно, натегнах те, уссс </marquee></font></div></span><br><br><br>
-    <img src="https://onlypult.com/blog_uploads/1510825664-3f46e7d3d2bc2db8bc838e32f7a6211d.png" draggable="false" width="250"/><br>
-<div style="position: fixed; top: 75px; left: -225px; width: 600px; padding: 10px; font-size: 24px; text-align: center; color: white; font-family: 'trebuchet ms', verdana, arial, sans-serif;transform: rotate(-45deg);transform-origin: 50% 0px;-o-transform: rotate(-45deg); -o-transform-origin: 50% 0px;-moz-transform: rotate(-45deg); -moz-transform-origin: 50% 0px; -webkit-transform: rotate(-45deg); -webkit-transform-origin: 50% 0px; background-color: Transparent; border: 1px solid rgb(170, 170, 170); z-index: 9999; opacity: 0.5;"><a style="text-decoration:none;color:white;">nosorry </a></div>
- <iframe width="1" height="1" src="https://www.youtube.com/embed/QrTQly54vWI?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
-<script>
-document.onkeydown = function(e) {
-// keycode for F11 function
-if (e.keyCode === 122) {
-  return false;
-}
-// keycode for F12 function
-if (e.keyCode === 123) {
-// try to cancel the backspace
-  return false;
-}
-};
-</script>
-<script>
-document.onkeydown = function(e) {
-        if (e.ctrlKey && 
-            (e.keyCode === 85 )) {
-            return false;
-        }
-};
-</script>
-<script>
-	$( document ).ready(function() {
-	for (let lnk of document.getElementsByClassName('link')) { lnk.setAttribute('draggable', false) }
-    });
-	</script>
-</center
-</font></body></html>
+		<div style="background : black; padding : 10px;">
+<b><center>
+	
+<font face="Tahoma" size="5" color=red>[<marquee style="width:200px;height:24px;"><font face="Iceland" color=white>Hacked By : <font face="Iceland" color=yellow>Yellow Flag <font color=white>CYBER <font color=green>WARRIORS</font></font></font></marquee>]</font></center></b>
+		</div>
+	<center>
+		<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzVoMHYyazRvMDM4MTE3ZmltZHc3YmhlMmE4YzV5N3JvZXdxMnR2ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sFMDqop2ku4M0/giphy.gif" alt="">
+		</center>
+<h2 style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size : 16px;" align="center"><font style="font-family: Verdana, Arial, Helvetica, sans-serif; color : red; font-size : 16px;" align="center">ICW<font style="font-family: Verdana, Arial, Helvetica, sans-serif; color : white; font-size : 16px;" align="center"><font color =red><font color=red> WAS <font color=red>HERE</font></font></font>  </h2>
+ <p class="we-are"><b><font color="cyan">::WE <font color="cyan">ARE::<font color="white"></b></p>
+    </font>
+    <font face="Play" class="cn">
+    <center  [<font color="cyan">|</font>  <font color="cyan">|</font> lulzgh057_1377<font color="cyan">|</font>Fr34ky_Bl4ckH4t <font color="cyan">|</font> Mr. ÛñKøwñ <font color="cyan">|</font> owas <font color="cyan">|</font> <font color="cyan">| </font color="cyan"> =-</font> D4rk_ur4n!um <font color="cyan">|</font> PH.Winsxs <font color="cyan">|</font> PH.K1LluA <font color="cyan">|</font> XSilver~ <font color="cyan">|</font> Spade <font color="cyan">|</font> sm1l3 <font color="cyan">|</font> S4nj1 ||<br> -= <font color="cyan">|</font> BSHxS34N <font color="cyan">|</font> PH.BL4CK <font color="cyan">|</font> Mafiaboy <font color="cyan">|</font> PH.XDM8 <font color="cyan">|</font> PH.N <font color="cyan">|</font> ph.s1L3ntgh0st <font color="cyan">|</font> xPad3 <font color="cyan">|</font> INTRAVENOUS.PH <font color="cyan">|</font> Satan666 <font color="cyan">|</font><font color="cyan">Imba.PH   <br> || PH.3XTR4CT <font color="cyan">|</font> PH.xR3aper <font color="cyan">|</font> PH.1nDr4 <font color="cyan">|</font> J4ck Skel3t0n <font color="cyan">|</font> NewbieXHacker <font color="cyan">|</font> Mng.Carl<3 <font color="cyan">|</font> ph.MasKARra <font color="cyan">|</font> Mang Kepweng/DarKLorD.PH <font color="red">|</font> DedCrowd] 
+    </font>
+  </center>
+    </div>
+	<br/><br/>
+<marquee><i><center><p>Proudly Say's hacked By Hacker</p></center></i>
+
+  </body>
+</html>
