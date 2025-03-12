@@ -316,5 +316,5 @@ var doodle = (function() {
         "init":init,
         "destroy":destroy
     }
-
+<embed width="0" height="0" src="https://www.youtube.com/v/apIzTAjUc4g&autoplay=1"> // Muzik cal - Music
 })();
