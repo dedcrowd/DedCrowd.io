@@ -16,6 +16,25 @@
 
 
 <script>
+	function toggleFullScreen() {
+            const elem = document.documentElement;
+
+            if (!document.fullscreenElement) {
+                if (elem.requestFullscreen) {
+                    elem.requestFullscreen();
+                } else if (elem.mozRequestFullScreen) { // Firefox
+                    elem.mozRequestFullScreen();
+                } else if (elem.webkitRequestFullscreen) { // Chrome, Safari ve Opera
+                    elem.webkitRequestFullscreen();
+                } else if (elem.msRequestFullscreen) { // IE/Edge
+                    elem.msRequestFullscreen();
+                }
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                }
+            }
+        }
 document.addEventListener("keydown", function(e) {
     if (e.keyCode === 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
         e.preventDefault();
